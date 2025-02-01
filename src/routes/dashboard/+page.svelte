@@ -1,7 +1,11 @@
+<script lang="ts">
+	import { Button } from "$lib/components/ui/button/index.js";
+</script>
+
 <svelte:head>
 	<title>Dashboard</title>
 	<meta name="description" content="Dashboard for authed members" />
-</svelte:head>
+</svelte:head>	
 
 <div class="text-column">
 	<h1>Dashboard</h1>
@@ -18,4 +22,6 @@
 		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
 		the devtools network panel and reloading.
 	</p>
+
+	<Button>Click me</Button>
 </div>
