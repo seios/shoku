@@ -25,7 +25,7 @@
 						{...props}
 					>
 						<Avatar.Root class="h-8 w-8 rounded-lg">
-							<Avatar.Image src={user.avatar} alt={user.name} />
+							<!-- <Avatar.Image src={user.avatar} alt={user.name} /> -->
 							<Avatar.Fallback class="rounded-lg">CN</Avatar.Fallback>
 						</Avatar.Root>
 						<div class="grid flex-1 text-left text-sm leading-tight">
