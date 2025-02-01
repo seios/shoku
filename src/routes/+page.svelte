@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -19,15 +18,9 @@
 		</span>
 	</h1>
 
-	<p>
-		to your new<br />SvelteKit app
-	</p>
-
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		<a href="/dashboard">Go to Dashboard</a>
 	</h2>
-
-	<Counter />
 </section>
 
 <style>
