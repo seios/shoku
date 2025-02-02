@@ -16,7 +16,7 @@
 		user: {
 			name: "shadcn",
 			email: "m@example.com",
-			avatar: "$lib/images/shadcn.jpg",
+			avatar: "https://github.com/shadcn.png",
 		},
 		teams: [
 			{
