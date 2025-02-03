@@ -13,7 +13,7 @@
 <Sidebar.Provider>
 	<AppSidebar />
 	<Sidebar.Inset>
-		<header
+		<div
 			class="flex h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear group-has-[[data-collapsible=icon]]/sidebar-wrapper:h-12"
 		>
 			<div class="flex items-center gap-2 px-4">
@@ -31,7 +31,7 @@
 					</Breadcrumb.List>
 				</Breadcrumb.Root>
 			</div>
-		</header>
+		</div>
 		<!-- <div class="flex flex-1 flex-col gap-4 p-4 pt-0">
 			<div class="grid auto-rows-min gap-4 md:grid-cols-3">
 				<div class="bg-muted/50 aspect-video rounded-xl"></div>
