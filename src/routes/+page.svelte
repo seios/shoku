@@ -1,7 +1,6 @@
 <script lang="ts">
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcomeFallback from '$lib/images/svelte-welcome.png';
-
 	import { Button } from "$lib/components/ui/button/index.js";
 </script>
 
@@ -20,8 +19,8 @@
 		</span>
 	</h1>
 
-	<Button href="/dashboard">
-		Go to Dashboard
+	<Button href="/login">
+		Login
 	</Button>
 </section>
 
