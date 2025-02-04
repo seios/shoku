@@ -1,6 +1,6 @@
 <script lang="ts">
-  import SearchForm from "@/components/SearchForm.svelte";
-  import ModeWatcherDropdown from "@/components/ModeWatcherDropdown.svelte";
+  import SearchForm from "$lib/components/SearchForm.svelte";
+  import ModeWatcherDropdown from "$lib/components/ModeWatcherDropdown.svelte";
 </script>
 
 <header class="flex sticky top-0 z-50 w-full items-center border-b bg-background">
