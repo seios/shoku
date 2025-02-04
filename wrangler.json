@@ -4,7 +4,7 @@
  */
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "shoku",
+  "name": "shok",
   "compatibility_date": "2025-01-24",
   "pages_build_output_dir": ".svelte-kit/cloudflare",
   "observability": {
@@ -27,7 +27,7 @@
    * Environment Variables
    * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
    */
-  "vars": { "NODE_VERSION": "20.9.0" },
+  "vars": { "NODE_VERSION": "20.9.0" }
   /**
    * Note: Use secrets to store sensitive data.
    * https://developers.cloudflare.com/workers/configuration/secrets/
