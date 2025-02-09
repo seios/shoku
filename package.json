@@ -12,7 +12,10 @@
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
 		"deploy": "pnpm run build && wrangler pages deploy",
-		"cf-typegen": "wrangler types && move worker-configuration.d.ts src/"
+		"cf-typegen": "wrangler types && move worker-configuration.d.ts src/",
+		"db:push": "drizzle-kit push",
+		"db:migrate": "drizzle-kit migrate",
+		"db:studio": "drizzle-kit studio"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250129.0",
@@ -29,6 +32,7 @@
 		"autoprefixer": "^10.4.20",
 		"bits-ui": "1.0.0-next.85",
 		"clsx": "^2.1.1",
+		"drizzle-kit": "^0.30.2",
 		"eslint": "^9.19.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^2.46.1",
@@ -49,6 +53,15 @@
 		"wrangler": "^3.107.2"
 	},
 	"dependencies": {
-		"mode-watcher": "^0.5.1"
+		"@oslojs/crypto": "^1.0.1",
+		"@oslojs/encoding": "^1.1.0",
+		"drizzle-orm": "^0.38.4",
+		"mode-watcher": "^0.5.1",
+		"postgres": "^3.4.5"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
 	}
 }
