@@ -3,9 +3,13 @@
   import * as Card from "$lib/components/ui/card/index.js";
   import { Input } from "$lib/components/ui/input/index.js";
   import { Label } from "$lib/components/ui/label/index.js";
+  
+	import type { PageProps } from './$types';
+  let { data }: PageProps = $props();
 </script>
 
 <div class="flex h-screen w-full items-center justify-center px-4">
+  <h2>{JSON.stringify(data)}</h2>
   <Card.Root class="mx-auto max-w-sm">
     <Card.Header>
       <Card.Title class="text-2xl">Login</Card.Title>
